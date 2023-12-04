@@ -15,6 +15,7 @@ do './buildscripts.pl';
 # Add files to the build process. #
 ###################################
 
-add_sources(
-    texsrc,
+addfilesfromdir("texsrc",
+    "slides_handout.tex",
+    "slides_lecture.tex",
 )
